@@ -1,7 +1,7 @@
 # コーディング練習用
 
 ## マークアップ
-下記参考デザインを元にマークアップ
+下記参考デザインを元にマークアップ  
 [http://lc.lc-design.jp/design/kimura/lesson/markup/](http://lc.lc-design.jp/design/kimura/lesson/markup/)
 
 * 規模によるディレクトリの構成
