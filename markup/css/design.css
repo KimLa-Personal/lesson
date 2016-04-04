@@ -9,26 +9,86 @@
  base
 ------------------------------------------------------------*/
 
+.page {
+	width: 980px;
+	margin: 0 auto;
+}
 
 
 /*----------------------------------------------------------
  header
 ------------------------------------------------------------*/
 
+.header { padding: 15px 0; }
+
+.header h1 {
+	font-size: 26px;
+	color: #aaa;
+}
 
 
 /*----------------------------------------------------------
  globalNav
 ------------------------------------------------------------*/
 
+.globalNav { margin-bottom: 30px; }
+
+.globalNav ul {
+	border-top: 1px solid #eee;
+	overflow: hidden;
+}
+
+.globalNav li {
+	float: left;
+	width: 20%;
+}
+
+.globalNav a {
+	display: block;
+	padding: 15px 0;
+	background: #222;
+	border-left: 1px solid #eee;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+.globalNav ul li:first-child a { border-left: 0; }
+
+.globalNav a:hover { background: #555; }
 
 
 /*----------------------------------------------------------
  main
 ------------------------------------------------------------*/
 
+.main { padding: 0 5px; }
+
+.section { margin-bottom: 30px; }
+
+.section h2 {
+	margin-bottom: 15px;
+	font-size: 26px;
+	color: #c6c6c6;
+}
+
+.btnPagetop {
+	margin-bottom: 15px;
+	text-align: right;
+}
+
+
+/* news */
+
+.news-list dd { margin-bottom: 10px; }
 
 
 /*----------------------------------------------------------
  footer
 ------------------------------------------------------------*/
+
+.footer {
+	padding: 15px 0;
+	border-top: 1px solid #ddd;
+}
+
+.copyright { text-align: center; }
